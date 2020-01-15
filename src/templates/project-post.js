@@ -70,20 +70,20 @@ export default ({ data }) => {
 }
 
 export const pageQuery = graphql`
-query($path: String!) {
-  markdownRemark(frontmatter: { path: { eq: $path } }) {
-    html
-    excerpt(pruneLength: 160)
-    frontmatter {
-      date(formatString: "DD MMMM, YYYY")
-      path
-      title
-    }
-    fields {
-      readingTime {
-        text
+  query($path: String!) {
+    markdownRemark(frontmatter: { path: { eq: $path } }) {
+      html
+      excerpt(pruneLength: 160)
+      frontmatter {
+        date(formatString: "DD MMMM, YYYY")
+        path
+        title
+      }
+      fields {
+        readingTime {
+          text
+        }
       }
     }
   }
-}
 `

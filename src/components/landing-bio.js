@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import styled from "@emotion/styled"
+import MyAvatar from "../assets/MyAvatar.svg"
 
 const Container = styled.div`
   text-align: center;
@@ -40,8 +41,9 @@ const LandingBio = () => (
     render={data => (
       <OuterContainer>
         <Container>
+          <MyAvatar/>
           <NameHeader>{data.site.siteMetadata.title}</NameHeader>
-          <Description>Software Developer</Description>
+          <Description>Internet Design</Description>
         </Container>
       </OuterContainer>
     )}

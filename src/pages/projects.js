@@ -39,9 +39,9 @@ const ReadingTime = styled.h5`
 const IndexPage = ({ data }) => {
   return (
     <Layout>
-      <SEO title="Blog" />
+      <SEO title="Projects" />
       <Content>
-        <h1>Blog</h1>
+        <h1>Projects</h1>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <Link
@@ -74,7 +74,6 @@ export const query = graphql`
         title
       }
     }
-    
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       totalCount
       edges {

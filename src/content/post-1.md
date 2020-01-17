@@ -4,6 +4,7 @@ date: "2019-03-17"
 draft: false
 path: "/portfolio/swwwyft"
 ---
+
 # H1
 
 ## H2
@@ -25,7 +26,7 @@ Paragraph
 ---
 
 [Example.com](example.com)
-![image](../images/gatsby-astronaut.png)
+![image](https://preview.redd.it/o4nivtjg15b41.jpg?width=640&height=884&crop=smart&auto=webp&s=f37583e6db3a567e7eb46c2341551487fc62bef3)
 
 ---
 

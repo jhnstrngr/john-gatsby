@@ -22,7 +22,12 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-mdx`,
+    {
+      resolve: `gatsby-plugin-mdx`,
+    options: {
+      extensions: [`.mdx`, `.md`],
+    },
+  },
     `gatsby-plugin-emotion`,
     {
       resolve: `gatsby-transformer-remark`,

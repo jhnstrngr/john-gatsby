@@ -9,6 +9,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import styled from "@emotion/styled"
+import { IconContext } from "react-icons";
+import { FaGithub, FaLinkedin, FaInstagram  } from 'react-icons/fa';
 
 import Header from "./header"
 import "./layout.css"
@@ -46,12 +48,18 @@ const Layout = ({ children }) => (
           <main>{children}</main>
         </Content>
         <Footer>
-            © {new Date().getFullYear()}, powered by ☕
+        <IconContext.Provider value={{ size: "2.3rem", className: "react-icons" }}>
+
+            <a href="https://github.com/jhnstrngr" target="_blank"><FaGithub/></a> <a href="https://www.linkedin.com/in/john-stringer-aa4771110/" target="_blank"><FaLinkedin/></a> <a href="https://www.instagram.com/ux.john" target="_blank"><FaInstagram/></a>
+            </IconContext.Provider>
+
           </Footer>
       </>
     )}
   />
 )
+
+
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,

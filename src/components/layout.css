@@ -616,6 +616,12 @@ pre tt:after {
   padding-left: 2.8em;
   overflow: initial;
 }
+.react-icons {
+  margin: 0.5rem;
+}
+.react-icons:hover {
+  opacity: 0.6;
+}
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;

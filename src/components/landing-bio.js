@@ -20,6 +20,7 @@ const Description = styled.p`
   padding: 0;
   margin-bottom: 1rem;
   font-size: 1.4rem;
+  line-height: 2.5rem;
 `
 
 const NameHeader = styled.h1`
@@ -43,7 +44,7 @@ const LandingBio = () => (
         <Container>
           <MyAvatar/>
           <NameHeader>{data.site.siteMetadata.title}</NameHeader>
-          <Description>Internet Design</Description>
+          <Description>Web Developer</Description>
         </Container>
       </OuterContainer>
     )}

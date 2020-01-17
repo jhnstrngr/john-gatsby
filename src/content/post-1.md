@@ -1,8 +1,8 @@
 ---
-title: "Example Title"
+title: "Swwwft | swwwyft.com"
 date: "2019-03-17"
 draft: false
-path: "/blog/example-title"
+path: "/portfolio/swwwyft"
 ---
 # H1
 
@@ -25,6 +25,7 @@ Paragraph
 ---
 
 [Example.com](example.com)
+![image](../images/gatsby-astronaut.png)
 
 ---
 

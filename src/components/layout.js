@@ -18,6 +18,9 @@ const Content = styled.div`
   max-width: 860px;
   padding: 0 1.0875rem 1rem;
   padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
 `
 
 const Footer = styled.footer`
@@ -41,10 +44,10 @@ const Layout = ({ children }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
         <Content>
           <main>{children}</main>
-          <Footer>
+        </Content>
+        <Footer>
             © {new Date().getFullYear()}, powered by ☕
           </Footer>
-        </Content>
       </>
     )}
   />

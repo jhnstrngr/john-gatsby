@@ -1,8 +1,8 @@
 ---
-title: "Code Example"
+title: "Venture Cultures"
 date: "2019-06-06"
 draft: false
-path: "/blog/code-example"
+path: "/portfolio/code-example"
 ---
 
 ## An Code example with PrismJS

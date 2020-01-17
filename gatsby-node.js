@@ -32,8 +32,8 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
-  const blogPostTemplate = path.resolve(`src/templates/blog-post.js`);
-  const projectPostTemplate = path.resolve(`srs/templates/project-post.js`);
+  const portfolioPostTemplate = path.resolve(`src/templates/portfolio-post.js`);
+
   return graphql(`
     {
       allMarkdownRemark {
@@ -57,18 +57,9 @@ exports.createPages = ({ graphql, actions }) => {
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({
         path: node.frontmatter.path,
-        component: blogPostTemplate,
+        component: portfolioPostTemplate,
         slug: node.fields.slug,
         context: {},
-      })
-    })
-    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-      createPage({
-        path: node.frontmatter.path,
-        component: projectPostTemplate,
-        slug: node.fields.slug,
-        context: {
-        },
       })
     })
   })

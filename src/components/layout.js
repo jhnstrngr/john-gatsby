@@ -50,7 +50,7 @@ const Layout = ({ children }) => (
         <Footer>
         <IconContext.Provider value={{ size: "2.3rem", className: "react-icons" }}>
 
-            <a href="https://github.com/jhnstrngr" target="_blank"><FaGithub/></a> <a href="https://www.linkedin.com/in/john-stringer-aa4771110/" target="_blank"><FaLinkedin/></a> <a href="https://www.instagram.com/ux.john" target="_blank"><FaInstagram/></a>
+            <a href="https://github.com/jhnstrngr" target="_blank"><FaGithub/></a> <a href="https://www.linkedin.com/in/john-stringer-aa4771110/" target="_blank"><FaLinkedin/></a> <a href="https://www.instagram.com/johnstringerm" target="_blank"><FaInstagram/></a>
             </IconContext.Provider>
 
           </Footer>

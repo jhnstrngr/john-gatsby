@@ -50,7 +50,7 @@ const AboutSection = () => (
           <Description>I'm a full-stack web developer, currently in my final year of studying Internet Design (BSc) at the University of Plymouth.</Description>
           <Description>Developing in HTML, (S)CSS and JavaScript.</Description>
           <Description>Using Figma and Adobe Illustrator for UI design.</Description>
-          <Description>I'm proficient in using the Adobe Creative Suite, Git (GitHub) and NPM. Currently learning React.js.</Description>
+          <Description>I'm proficient in using the Adobe Creative Suite and Git (GitHub).</Description>
         </Container>
       </OuterContainer>
     )}

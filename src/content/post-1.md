@@ -48,14 +48,6 @@ My roles were to make the themes that users could use in css as well as writing 
 
 I made the themes, using SCSS as a precompiler for my CSS.
 
-This was the file structure I used to organise my themes.
-
-```markup
-_base.scss
-_layout.scss
-_components.scss
-main.scss
-```
 
 Here you can find code examples of all of the themes: 
 

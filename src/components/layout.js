@@ -52,16 +52,16 @@ const Layout = ({ children }) => (
           <IconContext.Provider
             value={{ size: "2.3rem", className: "react-icons" }}
           >
-            <a href="https://github.com/jhnstrngr" target="_blank">
+            <a href="https://github.com/jhnstrngr" target="_blank" rel="noopener">
               <FaGithub />
             </a>{" "}
             <a
               href="https://www.linkedin.com/in/john-stringer-aa4771110/"
-              target="_blank"
+              target="_blank" rel="noopener"
             >
               <FaLinkedin />
             </a>{" "}
-            <a href="https://www.instagram.com/johnstringerm" target="_blank">
+            <a href="https://www.instagram.com/johnstringerm" target="_blank" rel="noopener">
               <FaInstagram />
             </a>
             <a href="mailto:john.stringer.martin@gmail.com" target="_top">
